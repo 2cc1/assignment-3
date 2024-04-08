@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="./css/style.css"> 
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,42 +10,46 @@
 <body>
 
   <header>
-    <div>
-      <span>Emily Parker</span>
-      
+    <div class="wrapper">
+      <div class="container">
+      <span class="name">Emily Parker</span>
       <nav>
-        <ul>
+        <ul class="links">
           <li><a href="#">About Me</a></li>
           <li><a href="#">Services</a></li>
           <li><a href="#">My Work</a></li>
         </ul>
       </nav>
-    </div>  
+   </div>
   </header>
+ </div>  
 
   <div id="hero">
     <h1>Let's build something amazing together</h1>
   </div>
 
   <main>
-    <section id="about-me">
+    <section id="about-me" class="wrapper">
       <div>
-        <div>
-          <h2>About Me.</h2>
+        
+        <h2>About Me.</h2>
+        <div class="about_me">
+        <div class="about_me_image">
+        <img src="images/bio-pic.jpg" alt="Emily standing with arms crossed looking up to the left">
           <p>I'm a seasoned graphic designer with a penchant for bringing brands to life through captivating visuals and immersive digital experiences. With a background rooted in both creativity and strategy, I've spent years honing my craft to deliver designs that not only look stunning but also drive real results.</p>
           <p>Specializing in brand identity and web design, I thrive on the challenge of distilling complex ideas into simple yet impactful visual elements. </p>
           <p>With a commitment to excellence and a passion for pushing the boundaries of design, I'm dedicated to helping brands stand out in an increasingly crowded digital landscape. Let's work together to bring your vision to life!</p>
-        </div>
-        
-        <img src="images/bio-pic.jpg" alt="Emily standing with arms crossed looking up to the left">
+       
+       
+      </div>
+      </div>
       </div>
     </section>
-    
-    <section id="services">
+    <section id="services" class="wrapper">
       <div>
         <h2>What I can do for you...</h2>
         
-        <div>
+        <div class="services_content">
           <article>
             <h3>Logo Creation</h3>
             <p>Your logo is the face of your brand and the first thing that potential customers will see, so it's crucial to make a great first impression. I can help create a logo that is both visually stunning and effective in representing your brand.</p>
@@ -66,17 +71,17 @@
       </div>
     </section>
     
-    <section id="work">
+    <section id="work" class="wrapper">
       <div>
         <h2>My Work</h2>
         <p>I believe that life is all about balance, and finding inspiration in the world around us is key to staying creative and motivated. In addition to my portfolio of design work, here are a few of my latest pieces.</p>
         
-        <div>
-          <img src="images/portfolio-piece-1.jpg" alt="">
-          <img src="images/portfolio-piece-2.jpg" alt="">
-          <img src="images/portfolio-piece-3.jpg" alt="">
-          <img src="images/portfolio-piece-4.jpg" alt="">
-          <img src="images/portfolio-piece-5.jpg" alt="">
+        <div class="grid_container" class="wrapper">
+          <img class="image_1" src="images/portfolio-piece-1.jpg" alt="">
+          <img class="image_2" src="images/portfolio-piece-2.jpg" alt="">
+          <img class="image_3" src="images/portfolio-piece-3.jpg" alt="">
+          <img class="image_4"src="images/portfolio-piece-4.jpg" alt="">
+          <img class="image_5"src="images/portfolio-piece-5.jpg" alt="">
         </div>
       </div>
     </section>
